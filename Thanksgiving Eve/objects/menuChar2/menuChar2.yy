@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"di_1",
-  "eventList":[],
+  "%Name":"menuChar2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"di_1",
+  "name":"menuChar2",
   "overriddenProperties":[],
   "parent":{
-    "name":"dialogueOps",
-    "path":"folders/Objects/dialogueOps.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite13",
+    "path":"sprites/Sprite13/Sprite13.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
