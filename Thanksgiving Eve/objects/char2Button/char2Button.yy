@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"sportsGood1",
+  "%Name":"char2Button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"sportsGood1",
+  "name":"char2Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"sports",
-    "path":"folders/Objects/dialogueOps/sports.yy",
+    "name":"buttons",
+    "path":"folders/Objects/buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite15",
+    "path":"sprites/Sprite15/Sprite15.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
