@@ -4,3 +4,4 @@ tone = 4;
 confidence = 5;
 thought = 4;
 attention = 2;
+
