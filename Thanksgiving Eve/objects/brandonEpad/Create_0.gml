@@ -3,8 +3,8 @@ trust = 0;
 tone = 0;
 confidence = 5;
 attention = 3;
-
-chosen = [];
+i = irandom_range(0,3);
+chosen = [""];
 chosendmg = [];
 
 sportsDialogue = ["What's a sport?","I like soccer","I HATE that sport","You smell funny"];
@@ -21,3 +21,7 @@ movDmg = [0,-1,2,1];
 
 musicDialogue = ["Hehehe I like that one","My favorite music is from Starboy","That song is bad","I don't like that genre"];
 musicdmg = [0,0,1,2];
+
+while(player.chosen == player.prevchosen){
+	chosen[i] = chosen[i];
+}

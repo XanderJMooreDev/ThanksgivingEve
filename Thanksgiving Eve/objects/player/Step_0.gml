@@ -54,3 +54,21 @@ if(topic == "music"){
 	op2 = musicDialogue[j];
 	op3 = musicDialogue[j];
 }
+
+if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y >= 64 && mouse_y <= 128)){
+	chosen = op1;
+	prevchosen = chosen;
+	if(topic == "music"){
+		chosendmg = musicDmg[musicDialogue.indexOf(op1)];
+		op2 = musicDialogue[j];
+		op3 = musicDialogue[j];
+	}
+}
+if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y >= 129 && mouse_y <= 192)){
+	chosen = op2;
+	prevchosen = chosen;
+}
+if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y >= 193 && mouse_y <= 256)){
+	chosen = op3;
+	prevchosen = chosen;
+}

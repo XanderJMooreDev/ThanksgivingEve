@@ -42,4 +42,4 @@ chosendmg = 0;
 chosentrust = 0;
 chosengen = "";
 
-prevchosen = "";
+prevchosen = "b";
