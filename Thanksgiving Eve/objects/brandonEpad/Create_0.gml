@@ -4,7 +4,7 @@ tone = 0;
 confidence = 5;
 attention = 3;
 i = irandom_range(0,3);
-chosen = [""];
+chosen = ["","","","",""];
 chosendmg = [];
 
 sportsDialogue = ["What's a sport?","I like soccer","I HATE that sport","You smell funny"];

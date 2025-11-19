@@ -1,3 +1,3 @@
 player.dmgBonus = 2;
 player.trustBonus = 2;
-room_goto(dinnerTable);
+room_goto_next();

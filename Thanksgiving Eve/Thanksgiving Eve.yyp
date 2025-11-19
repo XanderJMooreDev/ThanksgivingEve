@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Thanksgiving Eve",
   "resources":[
@@ -50,7 +50,6 @@
     {"id":{"name":"menuChar2","path":"objects/menuChar2/menuChar2.yy",},},
     {"id":{"name":"menuChar3","path":"objects/menuChar3/menuChar3.yy",},},
     {"id":{"name":"nateNPC","path":"objects/nateNPC/nateNPC.yy",},},
-    {"id":{"name":"nextButton","path":"objects/nextButton/nextButton.yy",},},
     {"id":{"name":"player","path":"objects/player/player.yy",},},
     {"id":{"name":"startButton","path":"objects/startButton/startButton.yy",},},
     {"id":{"name":"wayneNPC","path":"objects/wayneNPC/wayneNPC.yy",},},
@@ -83,8 +82,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
-    {"roomId":{"name":"char_menu","path":"rooms/char_menu/char_menu.yy",},},
     {"roomId":{"name":"dinnerTable","path":"rooms/dinnerTable/dinnerTable.yy",},},
     {"roomId":{"name":"brandonConvo","path":"rooms/brandonConvo/brandonConvo.yy",},},
     {"roomId":{"name":"nateConvo","path":"rooms/nateConvo/nateConvo.yy",},},
@@ -92,6 +89,8 @@
     {"roomId":{"name":"abigailConvo","path":"rooms/abigailConvo/abigailConvo.yy",},},
     {"roomId":{"name":"beckyConvo","path":"rooms/beckyConvo/beckyConvo.yy",},},
     {"roomId":{"name":"daveConvo","path":"rooms/daveConvo/daveConvo.yy",},},
+    {"roomId":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
+    {"roomId":{"name":"char_menu","path":"rooms/char_menu/char_menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
