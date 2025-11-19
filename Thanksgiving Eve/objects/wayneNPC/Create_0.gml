@@ -1,5 +1,3 @@
-confidence = 3;
+confidence = 10;
 trust = 0;
-ego = 7;
-tone = 5;
-attention = 7;
+gen = "b";
