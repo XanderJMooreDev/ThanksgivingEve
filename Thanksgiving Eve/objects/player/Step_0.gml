@@ -28,7 +28,7 @@ if(type == "Reputable"){
 	trustBonus = 4;
 }
 
-//opt 1
+//options
 if(topic == "food"){
 	op1 = foodDialogue[a];
 	op2 = foodDialogue[b];
@@ -55,7 +55,7 @@ if(topic == "music"){
 	op3 = musicDialogue[c];
 }
 
-if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y >= 64 && mouse_y <= 128)){
+if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y >= 128 && mouse_y <= 192)){
 	chosen = op1;
 	prevchosen = chosen;
 	if(topic == "music"){
@@ -103,9 +103,11 @@ if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y 
 			op.trust += musicDmg[a] + trustBonus;
 		}
 	}
+	topic = t[i]	
+	op.chosen[op.i] = op.chosen[op.i]
 }
 
-if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y >= 129 && mouse_y <= 192)){
+if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y >= 193 && mouse_y <= 256)){
 	chosen = op2;
 	prevchosen = chosen;
 	if(topic == "music"){
@@ -153,8 +155,10 @@ if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y 
 			op.trust += moviedmg[b] + trustBonus;
 		}
 	}
+		topic = t[i]
+		op.chosen[op.i] = op.chosen[op.i]
 }
-if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y >= 193 && mouse_y <= 256)){
+if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y >= 257 && mouse_y <= 320)){
 	chosen = op3;
 	prevchosen = chosen;
 	if(topic == "music"){
@@ -202,4 +206,6 @@ if(mouse_check_button(mb_left) && (mouse_x >= 64 && mouse_x <= 128) && (mouse_y 
 			op.trust += moviedmg[c] + trustBonus;
 		}	
 	}
+topic = t[i]
+op.chosen[op.i] = op.chosen[op.i]
 }
