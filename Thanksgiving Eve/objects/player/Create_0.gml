@@ -2,7 +2,7 @@ dmgBonus = 0;
 trustBonus = 0;
 type = "Mediator";
 t = ["food","music","movies","politics","sports"];
-i = irandom(4);
+i = irandom_range(0,4);
 topic = t[i];
 
 j = 0;
