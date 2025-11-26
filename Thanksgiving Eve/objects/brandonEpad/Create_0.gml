@@ -1,4 +1,5 @@
 confidence = 3;
+MAXCON = 3;
 trust =0;
 gen = "a";
 i = irandom_range(0,3);

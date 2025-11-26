@@ -13,3 +13,9 @@ if(player.topic = "music"){
 if(player.topic = "food"){
 	chosen = foodDialogue;
 }
+if(confidence <= 0){
+	room_goto(dinnerTable);
+}
+if(trust >= 3){
+	room_goto(dinnerTable);
+}

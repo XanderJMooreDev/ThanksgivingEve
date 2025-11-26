@@ -6,40 +6,22 @@ i = irandom_range(0,4);
 topic = t[i];
 
 j = 0;
-foodDialogue = ["food","food1","food2","food3","food4","food5","food6","food7","food8","food9"];
-foodDmg = [2,2,2,2,2,2,2,2,2,2];
-foodGen = ["z","m","b","a","z","b","m","b","z","a"];
+foodDialogue = ["Can I make you some Mac and cheese?","do you like Chicken tenders?","Do you like pizza?","want me to make you some oatmeal","Applesauce?","what do kids like candy?","Did you like the cookies I baked","I made some soft food for you"];
+foodDmg = [2,2,2,2,2,2,2,2];
+foodGen = ["a","z","m","b","a","z","m","b"];
 
-musicDialogue = ["music","music1","music2","music3","music4","music5","music6","music7","music8","music9"];
-musicDmg  = [2,2,2,2,2,2,2,2,2,2];
-musicgen = ["z","m","b","a","z","b","m","b","z","a"];
+musicDialogue = ["uhh not like us","oh I too am a fan of MCR","Are you a fan of Taylors version?","Did you see what elvis did in the news?","err Kendrick Lam..","ever heard of Three Cheers for Sweet Revenge","I own like 12 Nirvana shirts","Ooh have you heard the newest Frank Sinatra"];
+musicDmg  = [2,2,2,2,2,2,2,2];
+musicgen = ["a","z","m","b","a","z","m","b"];
 
-moviedialogue = ["movie","movie1","movie2","moviee3","movie4","movie5","movie6","movie7","movie8","movie9"];
-moviedmg = [2,2,2,2,2,2,2,2,2,2];
-moviegen = ["z","m","b","a","z","b","m","b","z","a"];
+moviedialogue = ["Do you like Disney movies?","My favorite movie is the Starboy movie","ever seen Pulp Fiction","we're not in Kansas anymore","Can I read you a picture book?","Have you read One Piece?","You like The Godfather?","uhh, Old Yeller made me cry a bunch"];
+moviedmg = [2,2,2,2,2,2,2,2];
+moviegen = ["a","z","m","b","a","z","m","b"];
 
-poldialogue = ["67","67","67","67","67","67","67","67","67","67"];
-poldmg = [2,2,2,2,2,2,2,2,2,2];
-polgen = ["z","m","b","a","z","b","m","b","z","a"];
+poldialogue = ["67","um do you guys even know anything about politics?","at least you don't buy crypto","I love the minions!","is that the guy from fortnite?","I think the only thing you guys need to worry about is your school politics","What do you think about polotics","Busch was great"];
+poldmg = [2,2,2,2,2,2,2,2];
+polgen = ["a","z","m","b","a","z","m","b"];
 
-sportdialogue = ["sport","sport1","sport2","sport3","sport4","sport5","sport6","sport7","sport8","sport9"];
-sportdmg = [2,2,2,2,2,2,2,2,2,2];
-sportgen = ["z","m","b","a","z","b","m","b","z","a"];
-
-//opt 1
-op1 = "";
-op2 = "";
-op3 = "";
-
-chosen = " ";
-chosendmg = 0;
-chosentrust = 0;
-chosengen = "";
-
-prevchosen = chosen;
-
-a = irandom_range(0,9);
-b = irandom_range(0,9);
-c = irandom_range(0,9);
-
-op = brandonEpad;
+sportdialogue = ["why don't we go out back and toss the sports ball","do you play basketball or something at school?","Did you see that game with Lebron?","how bout we go outside and run up Kick the Can?","Did you win the litle league game?","Do you play any sports?","Have you seen that Basketball game where One Piece was there?","uhh what games did you guys have back then like Jax?"];
+sportdmg = [2,2,2,2,2,2,2,2];
+sportgen = ["a","z","m","b","a","z","m","b"];
