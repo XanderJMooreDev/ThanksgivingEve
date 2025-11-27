@@ -16,14 +16,14 @@ if(room == dinnerTable){
 
 //char types
 if(type == "Mediator"){
-	dmgBonus = 2;
-	trustBonus = 2;
-}
-if(type == "Gaslighter"){
-	dmgBonus = 4;
+	dmgBonus = 1;
 	trustBonus = 1;
 }
+if(type == "Gaslighter"){
+	dmgBonus = 2;
+	trustBonus = 0;
+}
 if(type == "Reputable"){
-	dmgBonus = 1;
-	trustBonus = 4;
+	dmgBonus = 0;
+	trustBonus = 2;
 }

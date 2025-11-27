@@ -1,3 +1,7 @@
+alarm[0] = 2147483647;
+randomise();
+i = random_range(0,4);
+draw_text(64,32,chosen[i]);
 if(player.topic = "sports"){
 	chosen = sportsDialogue;
 }
@@ -12,10 +16,4 @@ if(player.topic = "music"){
 }
 if(player.topic = "food"){
 	chosen = foodDialogue;
-}
-if(confidence <= 0){
-	room_goto(dinnerTable);
-}
-if(trust >= 7){
-	room_goto(dinnerTable);
 }

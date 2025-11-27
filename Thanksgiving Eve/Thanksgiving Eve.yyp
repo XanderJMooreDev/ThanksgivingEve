@@ -46,6 +46,7 @@
   },
   "name":"Thanksgiving Eve",
   "resources":[
+    {"id":{"name":"dialogue","path":"fonts/dialogue/dialogue.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"abigailNPC","path":"objects/abigailNPC/abigailNPC.yy",},},
     {"id":{"name":"beckyNPC","path":"objects/beckyNPC/beckyNPC.yy",},},
