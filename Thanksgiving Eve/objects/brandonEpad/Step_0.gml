@@ -13,9 +13,12 @@ if(player.topic = "music"){
 if(player.topic = "food"){
 	chosen = foodDialogue;
 }
+if(room == brandonConvo){
 if(confidence <= 0){
 	room_goto(dinnerTable);
 }
 if(trust >= 7){
 	room_goto(dinnerTable);
 }
+}
+randomise();

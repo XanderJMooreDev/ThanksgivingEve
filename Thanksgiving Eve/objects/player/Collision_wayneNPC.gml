@@ -1,4 +1,5 @@
-room_goto(wayneConvo);
-x = 100;
-y = 320;
-op = wayneNPC;
+if(wayneNPC.confidence <= 0 || wayneNPC.trust >= 10){
+}
+else{
+	room_goto(wayneConvo);
+}

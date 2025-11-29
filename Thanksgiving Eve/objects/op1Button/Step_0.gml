@@ -1,4 +1,3 @@
-i = irandom_range(0,7);
 if(player.topic = "sports"){
 	t = player.sportdialogue[i];	
 	dmg = player.sportdmg[i];
@@ -23,23 +22,4 @@ if(player.topic = "politics"){
 	t = player.poldialogue[i];
 	dmg = player.poldmg[i];
 	gen = player.polgen[i];
-}
-op = brandonEpad;
-if(room == brandonConvo){
-	op = brandonEpad;
-}
-if(room == abigailConvo){
-	op = abigailNPC;
-}
-if(room == beckyConvo){
-	op = beckyNPC;
-}
-if(room == daveConvo){
-	op = daveNPC;
-}
-if(room == nateConvo){
-	op = nateNPC;
-}
-if(room == wayneConvo){
-	op = wayneNPC;
 }

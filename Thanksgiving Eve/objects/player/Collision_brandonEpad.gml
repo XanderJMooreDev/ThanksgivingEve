@@ -1,4 +1,5 @@
+if(brandonEpad.confidence <= 0 || brandonEpad.trust >= 10){
+}
+else{
 room_goto(brandonConvo);
-x = 100;
-y = 320;
-op = brandonEpad;
+}

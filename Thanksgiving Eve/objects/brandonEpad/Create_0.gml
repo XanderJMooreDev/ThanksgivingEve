@@ -1,6 +1,7 @@
 confidence = 5;
-trust =0;
+trust = 0;
 gen = "a";
+randomise();
 i = irandom_range(0,3);
 chosen = ["","","",""];
 

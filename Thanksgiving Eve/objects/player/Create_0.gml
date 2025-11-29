@@ -1,4 +1,4 @@
-dmgBonus = 0;
+ddmgBonus = 0;
 trustBonus = 0;
 type = "Mediator";
 t = ["food","music","movies","politics","sports"];

@@ -1,4 +1,5 @@
-room_goto(abigailConvo);
-x = 100;
-y = 320;
-op = abigailNPC;
+if(abigailNPC.confidence <= 0 || abigailNPC.trust >= 10){
+}
+else{
+	room_goto(abigailConvo);
+}

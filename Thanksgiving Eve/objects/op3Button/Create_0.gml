@@ -1,26 +1,26 @@
 i = irandom_range(0,7);
 if(player.topic = "sports"){
-	text = player.sportdialogue[i];	
+	t = player.sportdialogue[i];	
 	dmg = player.sportdmg[i];
 	gen = player.sportgen[i];
 }
 if(player.topic = "movies"){
-	text = player.moviedialogue[i];
+	t = player.moviedialogue[i];
 	dmg = player.moviedmg[i];
 	gen = player.moviegen[i];
 }
 if(player.topic = "food"){
-	text = player.foodDialogue[i];
+	t = player.foodDialogue[i];
 	dmg = player.foodDmg[i];
 	gen = player.foodGen[i];	
 }
 if(player.topic = "music"){
-	text = player.musicDialogue[i];
+	t = player.musicDialogue[i];
 	dmg = player.musicDmg[i];
 	gen = player.musicgen[i];
 }
 if(player.topic = "politics"){
-	text = player.poldialogue[i];
+	t = player.poldialogue[i];
 	dmg = player.poldmg[i];
 	gen = player.polgen[i];
 }

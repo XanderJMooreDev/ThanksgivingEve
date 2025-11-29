@@ -1,4 +1,5 @@
-room_goto(daveConvo);
-x =100;
-y = 320;
-op = daveNPC;
+if(daveNPC.confidence <= 0 || daveNPC.trust >= 10){
+}
+else{
+	room_goto(daveConvo);
+}

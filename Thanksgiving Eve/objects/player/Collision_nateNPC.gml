@@ -1,4 +1,5 @@
-room_goto(nateConvo);
-x = 100;
-y = 320;
-op = nateNPC;
+if(nateNPC.confidence <= 0 || nateNPC.trust >= 10){
+}
+else{
+	room_goto(nateConvo);
+}
