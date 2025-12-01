@@ -1,11 +1,3 @@
-if room != dinnerTable {
-	if player.sprite_index == spr_eve_think {
-		sprite_index = spr_abigail_talk;
-	}
-	else {
-		sprite_index = spr_abigail_listen;
-	}
-}
 if(player.topic = "sports"){
 	chosen = sportsDialogue;
 }
@@ -21,7 +13,7 @@ if(player.topic = "music"){
 if(player.topic = "food"){
 	chosen = foodDialogue;
 }
-if(room == abigailConvo){
+if(room == wayneConvo){
 if(confidence <= 0){
 	room_goto(dinnerTable);
 	if(room == dinnerTable){

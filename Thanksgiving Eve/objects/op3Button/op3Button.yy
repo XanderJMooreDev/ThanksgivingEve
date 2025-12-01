@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite35",
-    "path":"sprites/Sprite35/Sprite35.yy",
+    "name":"Sprite33",
+    "path":"sprites/Sprite33/Sprite33.yy",
   },
   "spriteMaskId":null,
   "visible":true,
