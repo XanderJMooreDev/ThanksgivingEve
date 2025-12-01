@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"dave_spr",
-    "path":"sprites/dave_spr/dave_spr.yy",
+    "name":"spr_dave_ow",
+    "path":"sprites/spr_dave_ow/spr_dave_ow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Eve",
-    "path":"folders/Sprites/Conversation/Eve.yy",
+    "path":"folders/Sprites/Character/Eve.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

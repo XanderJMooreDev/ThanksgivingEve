@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Abigail",
-    "path":"folders/Sprites/Conversation/Abigail.yy",
+    "path":"folders/Sprites/Character/Abigail.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

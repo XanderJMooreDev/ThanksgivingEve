@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"becky_spr",
-    "path":"sprites/becky_spr/becky_spr.yy",
+    "name":"spr_becky_ow",
+    "path":"sprites/spr_becky_ow/spr_becky_ow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

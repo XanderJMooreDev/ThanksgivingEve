@@ -35,7 +35,7 @@ else{
 		abigailNPC.confidence -= dmg + player.dmgBonus;
 	}
 	if(room == daveConvo){
-		daveNPC.confadence -= dmg + player.dmgBonus;
+		daveNPC.confadence -= dmg + player.dmgBonus; // typo? @Noah
 	}
 }
 event_perform(player.alarm[1],0);

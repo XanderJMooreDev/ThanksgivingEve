@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Brandon",
-    "path":"folders/Sprites/Conversation/Brandon.yy",
+    "path":"folders/Sprites/Character/Brandon.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

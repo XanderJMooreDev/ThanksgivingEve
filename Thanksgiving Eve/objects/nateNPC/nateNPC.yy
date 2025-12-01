@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"nate_spr",
-    "path":"sprites/nate_spr/nate_spr.yy",
+    "name":"spr_nate_ow",
+    "path":"sprites/spr_nate_ow/spr_nate_ow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

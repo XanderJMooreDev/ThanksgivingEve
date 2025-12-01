@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"brandon_spr",
-    "path":"sprites/brandon_spr/brandon_spr.yy",
+    "name":"spr_brandon_ow",
+    "path":"sprites/spr_brandon_ow/spr_brandon_ow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Dave",
-    "path":"folders/Sprites/Conversation/Dave.yy",
+    "path":"folders/Sprites/Character/Dave.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -60,7 +60,7 @@
     },
     "name":"spr_dave_listen",
     "playback":1,
-    "playbackSpeed":12.0,
+    "playbackSpeed":2.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

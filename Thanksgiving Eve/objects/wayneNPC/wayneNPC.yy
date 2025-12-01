@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"wayne_spr",
-    "path":"sprites/wayne_spr/wayne_spr.yy",
+    "name":"spr_wayne_ow",
+    "path":"sprites/spr_wayne_ow/spr_wayne_ow.yy",
   },
   "spriteMaskId":null,
   "visible":true,
