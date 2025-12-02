@@ -1,3 +1,11 @@
+if room != dinnerTable {
+	if player.sprite_index == spr_eve_think {
+		sprite_index = spr_dave_talk;
+	}
+	else {
+		sprite_index = spr_dave_listen;
+	}
+}
 if(player.topic = "sports"){
 	chosen = sportsDialogue;
 }
@@ -14,17 +22,17 @@ if(player.topic = "food"){
 	chosen = foodDialogue;
 }
 if(room == daveConvo){
-if(confidence <= 0){
-	room_goto(dinnerTable);
-	if(room == dinnerTable){
-		instance_destroy(self);
+	if(confidence <= 0){
+		room_goto(dinnerTable);
+		if(room == dinnerTable){
+			instance_destroy(self);
+		}
 	}
-}
-if(trust >= 7){
-	room_goto(dinnerTable);
-	if(room == dinnerTable){
-		instance_destroy(self);
+	if(trust >= 7){
+		room_goto(dinnerTable);
+		if(room == dinnerTable){
+			instance_destroy(self);
+		}
 	}
-}
 }
 randomise();

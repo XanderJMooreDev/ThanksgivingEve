@@ -24,3 +24,13 @@ polgen = ["a","z","m","b","a","z","m","b"];
 sportdialogue = ["why don't we go out back and toss the sports ball","do you play basketball or something at school?","Did you see that game with Lebron?","how bout we go outside and run up Kick the Can?","Did you win the litle league game?","Do you play any sports?","Have you seen that Basketball game where One Piece was there?","uhh what games did you guys have back then like Jax?"];
 sportdmg = [1,1,1,1,1,1,1,1];
 sportgen = ["a","z","m","b","a","z","m","b"];
+
+talk = function() {
+	sprite_index = spr_eve_talk
+	alarm[3] = 120
+}
+
+wrong = function() {
+	sprite_index = spr_eve_mistake
+	alarm[3] = 90
+}

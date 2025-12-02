@@ -1,4 +1,5 @@
 if(gen == op.gen){
+	player.talk();
 	if(room == brandonConvo){
 		brandonEpad.trust += dmg + player.trustBonus;
 	}
@@ -19,6 +20,7 @@ if(gen == op.gen){
 	}
 }
 else{
+	player.wrong();
 	if(room == brandonConvo){
 		brandonEpad.confidence -= dmg + player.dmgBonus;
 	}

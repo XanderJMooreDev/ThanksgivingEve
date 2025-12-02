@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_eve_ow_stand",
-    "path":"sprites/spr_eve_ow_stand/spr_eve_ow_stand.yy",
+    "name":"spr_eve_think",
+    "path":"sprites/spr_eve_think/spr_eve_think.yy",
   },
   "spriteMaskId":null,
   "visible":true,

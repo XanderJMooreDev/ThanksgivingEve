@@ -1,3 +1,11 @@
+if room != dinnerTable {
+	if player.sprite_index == spr_eve_think {
+		sprite_index = spr_nate_talk;
+	}
+	else {
+		sprite_index = spr_nate_listen;
+	}
+}
 if(player.topic = "sports"){
 	chosen = sportsDialogue;
 }
